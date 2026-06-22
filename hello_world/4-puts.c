@@ -1,7 +1,8 @@
 #include <stdio.h>
  /**
  * main - Entry point
- * description: print text
+ * description: print text using puts
+
  * Return: Always 0 (Success)
  */
 int main(void)
