@@ -9,11 +9,12 @@
 int main(void)
 { 
 	char n;
-	n = '0';
+	
+	n = '0'; 
 	while (n <= '9') 
 	{ 
-	putchar(n); 
-	n++; 
+	putchar(n);
+	n++;
 	}
 	n = 'a';
 	while (n <= 'f') 
