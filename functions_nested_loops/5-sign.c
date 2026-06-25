@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * int print_sign(int n);
+ * print_sign(int n);
  * @n: the character to check
  *
  * Return:1 if positive, 0 if zero, -1 if negative
  */
-print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
