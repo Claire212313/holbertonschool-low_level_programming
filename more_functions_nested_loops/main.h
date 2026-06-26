@@ -14,5 +14,6 @@ int add(int a, int b);
 void print_to_98(int n);
 int print_last_digit(int n);
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif
