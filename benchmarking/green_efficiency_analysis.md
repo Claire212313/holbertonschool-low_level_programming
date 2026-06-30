@@ -31,7 +31,7 @@ The average of the Single-pass algorithm: 0.000083 seconds.
 
 N°3: In the last exercise, we measure to find out which area consumes the most energy:
  
-TOTAL seconds: 0.001087,/t 
+TOTAL seconds: 0.001087, 
 BUILD_DATA seconds: 0.000388, 
 PROCESS seconds: 0.000508 (highest result), 
 REDUCE seconds: 0.000186.
