@@ -12,29 +12,30 @@ the programs).
 
 
 ## Observed Performance Differences
-'''
+
 N°1: 
-Run 1 — 0.197503 seconds, 
-Run 2 — 0.192262 seconds, 
-Run 3 — 0.195909 seconds.
-''' 
+Run 1 — 0.197503 seconds,/t 
+Run 2 — 0.192262 seconds,/t 
+Run 3 — 0.195909 seconds./t
+ 
 After observing the three results of the first task, the result obtained is close but not identical; the CPU was 
 not at 100% (CPU = the "brain" that executes operations when the program runs), it was also running other programs, 
 which is why the results differ.
 
 N°2: In the second exercise, the naive algorithm is about 27903 times slower than the single-pass algorithm. 
-'''
-The average of the Naive algorithm: 2.315925 seconds. 
-The average of the Single-pass algorithm: 0.000083 seconds. 
-2.315925/0.000083 = 27902.71.
-'''
+
+
+The average of the Naive algorithm: 2.315925 seconds./t 
+The average of the Single-pass algorithm: 0.000083 seconds./t 
+2.315925/0.000083 = 27902.71./t
+
 N°3: In the last exercise, we measure to find out which area consumes the most energy:
-''' 
-TOTAL seconds: 0.001087, 
-BUILD_DATA seconds: 0.000388, 
-PROCESS seconds: 0.000508 (highest result), 
-REDUCE seconds: 0.000186.
-'''
+ 
+TOTAL seconds: 0.001087,/t 
+BUILD_DATA seconds: 0.000388,/t 
+PROCESS seconds: 0.000508 (highest result),/t 
+REDUCE seconds: 0.000186./t
+
 ## Relation Between Runtime and Energy Consumption
 
 In conclusion, we see that even if the program is running one task, it is also running elsewhere to make other
