@@ -25,7 +25,6 @@ int _atoi(char *s)
 		s++;
 	}
 	if (sign % 2 == 1)
-    	return (-(int)result);
+		return ((int)-result);
 	return ((int)result);
 }
-
