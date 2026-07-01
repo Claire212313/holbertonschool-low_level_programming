@@ -8,14 +8,12 @@
  */
 void puts2(char *str)
 {
-	int i;
-	int len;
-
 	while (*str != '\0')
-{
-    _putchar(*str);  /* affiche le caractère */
-    str++;           /* avance d'un */
-    if (*str != '\0')  /* vérifie qu'on n'est pas à la fin */
-        str++;       /* avance encore d'un */
+	{
+		_putchar(*str);
+		str++;
+		if (*str != '\0')
+			str++;
+	}
+	_putchar('\n');
 }
-_putchar('\n');
